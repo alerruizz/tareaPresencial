@@ -8,6 +8,7 @@
             border-collapse: collapse;
             width: 50%;
             margin: 20px auto;
+            background-color: black;
         }
 
         table, th, td {
