@@ -12,10 +12,10 @@
         <input type="text" id="nif" name="nif" pattern="^\d{8}[A-Za-z]$" title="Formato inválido. Ejemplo válido: 12345678Z" required><br><br>
 
         <label for="apellidos">Apellidos:</label>
-        <input type="text" id="apellidos" name="apellidos" pattern="^[A-Za-z_-]{1,20}$" title="Máximo 20 caracteres. Solo letras, guiones bajos." required><br><br>
+        <input type="text" id="apellidos" name="apellidos" pattern="^[A-Za-záéíóúüñÁÉÍÓÚÜÑ\s_-]{1,20}$" title="Máximo 20 caracteres. Letras, espacios, guiones bajos y guiones permitidos." required><br><br>
 
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" pattern="^[A-Za-z_-]{1,10}$" title="Máximo 10 caracteres. Solo letras, guiones bajos." required><br><br>
+        <input type="text" id="nombre" name="nombre" pattern="^[A-Za-záéíóúüñÁÉÍÓÚÜÑ\s_-]{1,10}$" title="Máximo 10 caracteres. Letras, espacios, guiones bajos y guiones permitidos." required><br><br>
 
         <label for="sexo">Sexo:</label>
         <select id="sexo" name="sexo" required>
@@ -32,10 +32,10 @@
         <label for="imagen">Imagen:</label>
         <input type="file" id="imagen" name="imagen" required><br><br>
 
-        <label for="beca">Solicitar beca de estudios:</label>
-        <input type="checkbox" id="beca" name="beca" value="si"><br><br>
+        <label for="Beca">Solicitar beca de estudios:</label>
+        <input type="checkbox" id="Beca" name="Beca" value="si"><br><br>
 
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Registrar">
     </form>    
 </div>
 
