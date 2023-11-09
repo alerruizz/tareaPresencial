@@ -4,7 +4,7 @@
 ?>
 <div class="container mt-4">
 <h1>Registro de Alumnos</h1>
-    <form action="procesar_formulario.php" method="post" enctype="multipart/form-data" style="padding: 30px">
+    <form action="mostrar_datos.php" method="post" enctype="multipart/form-data" style="padding: 30px">
         <label for="expediente">Número de expediente:</label>
         <input type="text" id="expediente" name="expediente" pattern="^[A-Za-z]{2,5}-\d{4}-\d{4}\/[HM]$" title="Formato inválido. Ejemplo válido: EST-2022-1234/H" required><br><br>
 
