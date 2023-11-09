@@ -4,6 +4,9 @@
     <title>Título de la página</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        p{
+            text-align:center;
+        }
         table {
             border-collapse: collapse;
             width: 50%;

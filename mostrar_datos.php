@@ -67,7 +67,7 @@ if ($expediente_year > $currentYear) {
 
         // Verificar si hay errores
         if (count($errores) > 0) {
-            echo "<h2>Se encontraron errores al procesar el formulario:</h2>";
+            echo '<h2 style= "text-align: center">Se encontraron errores al procesar el formulario.</h2>';
             foreach ($errores as $error) {
                 echo "<p>$error</p>";
             }
