@@ -36,7 +36,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">2º de DAW</a>
                     </li>                    
-                    <!-- Otras secciones del menú -->
+                
                 </ul>
             </div>
         </nav>
